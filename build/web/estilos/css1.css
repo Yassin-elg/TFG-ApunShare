@@ -1,0 +1,30 @@
+body{
+    padding: 10px 30px 10px 30px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.menu{
+    text-align: center;
+}
+
+.listado *{ list-style-type: none; padding: 0px; }
+.listado input[name="list"] { position: absolute; left: -1000em; }
+.listado label:before{ content:"+"; margin-right:4px; }
+.listado input:checked ~ label:before{ content:"x"; }
+.listado .interior{ display: none; }
+.listado input:checked ~ ul{ display:block; }
+
+.busqueda{
+    text-align: center;
+}
+
+.b{
+    display: inline-block;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
